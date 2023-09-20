@@ -12,10 +12,10 @@ function App() {
     <Routes>
     
     <Route element = {<PrivateRoutesLayout />}>
-    <Route path="/gallery" element = {<Gallery />} />
+    <Route path="/" element = {<Gallery />} />
     </Route>
    
-    <Route path="/" element = {<Login />} />
+    <Route path="/login" element = {<Login />} />
   
     </Routes>
     

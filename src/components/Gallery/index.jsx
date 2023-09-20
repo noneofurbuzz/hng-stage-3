@@ -30,7 +30,7 @@ export function Gallery(){
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        },3000)
+        },4000)
     },[])
     
     useEffect(() => {
@@ -51,7 +51,7 @@ export function Gallery(){
     }, []);
     const logout = async() => {
         await signOut(auth);
-        navigate("/")
+        navigate("/login")
         
     }
     return(
@@ -83,10 +83,10 @@ export function Gallery(){
                         <>
                         
                         <div key={index}  className="relative mx-auto grid-square">
-                        {loading ? (<div className="max-w-full bg-zinc-300 animate-pulse rounded-2xl h-96 w-96"></div>) : (<img src={image.image} alt={image.alt} className="max-w-full hover:scale-105 duration-500 ease-in-out transition-all rounded-2xl h-96 object-cover w-96"/>)}
+                        {loading ? (<img src="/assets/images/background.jpg" className="max-w-full bg-zinc-300 animate-pulse rounded-2xl h-96 w-96 object-cover" alt="background"/>) : (<img src={image.image} alt={image.alt} className="max-w-full hover:scale-105 duration-500 ease-in-out transition-all rounded-2xl h-96 object-cover w-96"/>)}
                         {loading ? (<p className="absolute bottom-10 text-white font-extrabold text-2xl left-8 mr-4 bg-zinc-200 rounded-3xl w-40 h-3 animate-pulse">&nbsp;&nbsp;&nbsp;</p>): (<p className="absolute bottom-10 text-white font-extrabold text-2xl left-8 mr-4">{image.name}</p>)}
                         {loading ? (<p className="absolute bottom-6 text-xs text-zinc-400 left-8 break-words mr-4 rounded-3xl w-28 h-3 animate-pulse bg-zinc-200">&nbsp;</p>):(<p className="absolute bottom-6 text-xs text-zinc-400 left-8 break-words mr-4">{image.artist}</p>)}
-                    </div>
+                    </div> 
                     </>
                     )
                 })}   

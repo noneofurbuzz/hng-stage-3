@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 export function Login(){
-    const from = "/gallery"
+    const from = "/"
     const [loginEmail,setLoginEmail] = useState("")
     const [show,setShow] = useState(false)
   

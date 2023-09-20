@@ -6,7 +6,7 @@ export const PrivateRoutesLayout = () => {
     const {user} = useContext(Context);
 
     if(!user){
-        return <Navigate to = "/" replace />
+        return <Navigate to = "/login" replace />
     }
     else{
         return <Outlet/>
