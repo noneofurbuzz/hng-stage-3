@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: space;
+    src: url(/assets/fonts/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+    font-family: space1;
+    src: url(/assets/fonts/LibreBaskerville-Bold.ttf);
+}
+.input:focus-within{
+    background: linear-gradient(white,white) padding-box,
+    linear-gradient(hsl(249, 99%, 64%),hsl(278, 94%, 30%)) border-box;
+    outline: none;
+    border: 2px solid transparent;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+}

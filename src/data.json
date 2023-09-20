@@ -1,0 +1,132 @@
+[
+    {
+      "id": "1",
+      "name": "Mona Lisa",
+      "artist": "Leonardo Da Vinci",
+      "image" : "/assets/images/monalisa.webp",
+      "alt" : "monalisa"
+    },
+    {
+        "id": "2",
+        "name": "The Last Supper",
+        "artist": "Leonardo Da Vinci",
+        "image" : "/assets/images/thelastsupper.webp",
+        "alt" : "last supper"
+      },
+      {
+        "id": "3",
+        "name": "View of Toledo",
+        "artist": "El Greco",
+        "image" : "/assets/images/toledo.webp",
+        "alt" : "view of toledo"
+      },
+      {
+        "id": "4",
+        "name": "The Third of May 1808",
+        "artist": "Francisco Goya",
+        "image" : "/assets/images/thirdmay.webp",
+        "alt" : "third may"
+      },
+      {
+        "id": "5",
+        "name": "American Gothic",
+        "artist": "Grant Wood",
+        "image" : "/assets/images/americangothic.webp",
+        "alt" : "american gothic"
+      },
+      {
+        "id": "6",
+        "name": "The Night Watch",
+        "artist": "The Night WatchRembrandt",
+        "image" : "/assets/images/thenightwatch.webp",
+        "alt" : "night watch"
+      },
+      {
+          "id": "7",
+          "name": "Café Terrace at Night",
+          "artist": "Vincent van Gogh",
+          "image" : "/assets/images/cafeterrace.webp",
+          "alt" : "cafe terrace"
+        },
+        {
+          "id": "8",
+          "name": "The Sleeping Gypsy",
+          "artist": "Henri Rousseau",
+          "image" : "/assets/images/sleepinggypsy.webp",
+          "alt" : "sleeping gypsy"
+        },
+        {
+          "id": "9",
+          "name": "Whistler's Mother",
+          "artist": "James Abbott McNeill Whistler",
+          "image" : "/assets/images/whistlersmother.webp",
+          "alt" : "whistler mother"
+        },
+        {
+          "id": "10",
+          "name": "Lady with an Ermine",
+          "artist": "Leonardo da Vinci",
+          "image" : "/assets/images/lady.webp",
+          "alt" : "lady with an ermine"
+        },
+        {
+            "id": "11",
+            "name": "The Harvesters",
+            "artist": "Pieter Bruegel the Elder",
+            "image" : "/assets/images/harvesters.webp",
+            "alt" : "harvesters"
+          },
+          {
+            "id": "12",
+            "name": "A Cotton Office In New Orleans",
+            "artist": "Edgar Degas",
+            "image" : "/assets/images/cotton.webp",
+            "alt" : "cotton office"
+          },
+          {
+            "id": "13",
+            "name": "The Scream",
+            "artist": "Edvard Munch",
+            "image" : "/assets/images/thescream.webp",
+            "alt" : "the scream"
+          },
+          {
+            "id": "14",
+            "name": "A Bar at the Folies-Bergère",
+            "artist": "Édouard Manet",
+            "image" : "/assets/images/bar.webp",
+            "alt" : "a bar at the folies-bergere"
+          },
+          {
+            "id": "15",
+            "name": "The Raft of the Medusa",
+            "artist": "Théodore Géricault",
+            "image" : "/assets/images/medusa.webp",
+            "alt" : "raft of medusa"
+          },
+          {
+            "id" : "16",
+            "name" : "Paris Street In Rainy Weather",
+            "artist" : "Gustave Caillebotte",
+            "image" : "/assets/images/rainy.webp",
+            "alt" : "perfect rainy weather"
+          },
+          {
+            "id": "17",
+            "name": "Branches with Almond Blossom",
+            "artist": "Vincent van Gogh",
+            "image" : "/assets/images/branches.webp",
+            "alt" : "branches with almond"
+          },
+          {
+            "id" : "18",
+            "name" : "Among the Ruins",
+            "artist" : "Sir Lawrence Alma-Tadem",
+            "image" : "/assets/images/ruins.webp",
+            "alt" : "among the ruins"
+          }
+
+      
+      
+      
+]
